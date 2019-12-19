@@ -137,7 +137,7 @@ export default {
       })(navigator.userAgent || navigator.vendor || window.opera);
       if (check) {
         alert(
-          "Use your laptop / some computer to see this website. Didn't have time to make it look nice in a phone too :("
+          "Use your laptop / some computer to see this website. Didn't have time to make it look nice in a phone too :( OR you can also enable the \"Desktop Site\" in your phone browser, but it'll still look nicer on a computer screen though."
         );
       }
       return check;
