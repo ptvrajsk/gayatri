@@ -22,22 +22,30 @@
     </b-row>
     <b-row align-v="center">
       <b-col>
-        <h1 style="font-size: 12vw">Happy 24<sup>th</sup> Birthday!!</h1>
+        <h1 style="font-size: 12vw">
+          Happy 24
+          <sup>th</sup> Birthday!!
+        </h1>
       </b-col>
       <b-col>
         <h1 style="font-size: 12vw">
-          &#128151; &#128151; &#128151; &#128151;
+          &#128151; &#128151; &#128151; &#128151; &#128151; &#128151; &#128151;
+          &#128151; &#128151;
         </h1>
       </b-col>
     </b-row>
     <b-row align-v="center">
       <b-col>
-        <h1 style="font-size: 2vw; margin-Top: 10vh">
+        <h1 style="margin: 4%">
           I'm so so so bummed that I am not around for your birthday. Really
-          wanted to spend time with you. But it's okay, just another 1.5
-          months~ish left before I come back to you!! &#128537; See la never
-          give me enough photos then I got nothing much to put in the site. But
-          of course here are some unglams for good measure &#129322;
+          wanted to spend the day with you and bring you out and give you
+          surprises but it's okay, just another 1 months~ish left before I come
+          back to you! &#128537; Then we can hang out again FINALLY hahaha. Ok
+          its not like an amazing birthday card or anything but I hope you like
+          it. Of course I'll be bringing you stuff from Canada before I come
+          back. You see la never give me enough photos then I got nothing much
+          to put here, but of course I added some unglams for good measure
+          &#129322;
         </h1>
       </b-col>
     </b-row>
@@ -45,71 +53,76 @@
       <b-col>
         <b-row>
           <b-col>
-            <h1 style="font-size: 2vw; margin-Top: 2vw; margin-Bottom: 2vw">
-              Like this...
-            </h1>
+            <h1 style="margin: 4%">Like this...</h1>
           </b-col>
         </b-row>
         <b-row>
           <b-col>
-            <b-img :src="require('../assets/g3_4.jpg')" fluid alt="g3_3" />
+            <b-img
+              :src="require('../assets/g3_4.jpg')"
+              v-bind:width="this.width"
+              rounded
+              center
+              fluid
+              alt="g3_4"
+            />
           </b-col>
         </b-row>
         <b-row>
           <b-col>
-            <h1 style="font-size: 2vw; margin-Top: 2vw; margin-Bottom: 2vw">
-              And this...
-            </h1>
+            <h1 style="margin: 4%">And this...</h1>
           </b-col>
         </b-row>
         <b-row>
           <b-col>
-            <b-img :src="require('../assets/g3_5.jpg')" fluid alt="g3_3" />
+            <b-img :src="require('../assets/g3_5.jpg')" rounded center fluid alt="g3_5" />
           </b-col>
         </b-row>
         <b-row>
           <b-col>
-            <h1 style="font-size: 2vw; margin-Top: 2vw; margin-Bottom: 2vw">
-              And also this &#128518;...
-            </h1>
+            <h1 style="margin: 4%">And also this &#128518;...</h1>
           </b-col>
         </b-row>
         <b-row>
           <b-col>
-            <b-img :src="require('../assets/g3_6.jpg')" fluid alt="g3_3" />
+            <b-img :src="require('../assets/g3_6.jpg')" rounded center fluid alt="g3_6" />
           </b-col>
         </b-row>
       </b-col>
     </b-row>
     <b-row align-v="center">
       <b-col>
-        <h1 style="font-size: 2vw; margin-Top: 2vw; margin-Bottom: 2vw">
-          Hehehe okok don't angry &#128536;
-        </h1>
+        <h1 style="margin: 4%">Hehehe okok don't angry &#128536;</h1>
       </b-col>
     </b-row>
     <b-row align-v="center">
       <b-col>
-        <h1 style="font-size: 2vw; margin-Top: 7vh">
-          Wanted to make this website way cooler hahaha but I didn't have enough
-          time &#128543;. I hope you have a super duper great day and I just
-          want you to know how much I appreciate you and think you're a great
-          person. I like you sooo sooo much okay hahaha.
+        <h1 style="margin: 4%">
+          Thank you for being there for me and being so understanding these last
+          few months in Canada. I know its not easy especially since we barely
+          get to talk because of the time difference and everything but I'm
+          really glad that we're hanging in there. Theres been so many nights
+          where i wanted to just be lying next to you again and so many times
+          I'm just sad that I don't get to see you. But I'm finally waaayyy
+          closer to coming back home again.
         </h1>
-        <h1 style="font-size: 2vw; margin-Top: 7vh">
-          I know the last 6 months (yes 6 months ready can you believe it) has
-          not been the most perfect nor the easiest but I had a great time with
-          you at every step of the way and I'm definitely sure things will
-          become way better as we go on. Just please talk to me okay don't say
-          "nothing baby" when there is actually something HAHA. I'm really
-          missing you so so much.
+        <h1>
+          Can you believe it's been like 6 months since we met? Haha and I have
+          stupidly been away longer than with you since we met &#128514;. But
+          its okay, after this I'm not going anywhere and you're pretty much
+          stuck with me HAHA. If there is anything I have been doing wrong or
+          can do better please tell me okay? But you've been really amazing and
+          I really enjoy the time I get to spend with you &#128522;
         </h1>
-        <h1 style="font-size: 2vw; margin-Top: 7vh">
-          I'll see you really soon baby! I would have probably called you
+        <h1 style="margin: 4%">
+          I would have probably called you
           already but if I haven't then I'll definitely be calling you in abit
-          hehe. Have fuuunnnn! Also please take more photos with me if not every
+          hehe. Have fuuunnnn todayyyyy! Also please take more photos with me if not every
           year you going to get unglams only HAHA &#128538; &#128538; &#128538;
+          Wanted to make this way nicer but didn't have enough time but its okay
+          next year you'll get physical cards since I'll be around hahaha.
         </h1>
+        <h1 style="margin: 4%">Love you, see you soon &#128150;</h1>
       </b-col>
     </b-row>
   </b-container>
@@ -119,7 +132,8 @@
 export default {
   name: "HelloWorld",
   props: {
-    msg: String
+    msg: String,
+    smallTextStyle: String
   },
   methods: {
     isMobile: function() {
